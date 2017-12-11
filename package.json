@@ -3,8 +3,9 @@
     "version": "0.0.1",
     "description": "json-server-mock",
     "scripts": {
-        "mock": "json-server --watch db.json --port 10000",
-        "mock-sa": "json-server --watch db-sa.json --port 10000"
+        "mock": "json-server --watch db.json --port 10001",
+        "mock:sa": "json-server --watch db-sa.json --port 10001",
+        "mock:oc": "json-server --watch ./oc/v2.3/data.json --routes ./oc/v2.3/routes.json --port 10001"
     },
     "repository": {
         "type": "git"
